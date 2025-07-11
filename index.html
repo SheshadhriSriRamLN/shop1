@@ -28,7 +28,7 @@
       text-decoration: none;
     }
     section {
-      padding: 20px;
+      padding: 40px 20px;
     }
     .products, .services {
       display: grid;
@@ -63,6 +63,20 @@
       display: flex;
       justify-content: center;
     }
+    .about {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+    }
+    .about img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .about-text {
+      flex: 1;
+    }
   </style>
 </head>
 <body>
@@ -72,33 +86,51 @@
   </header>
 
   <nav>
+    <a href="#about">About</a>
     <a href="#products">Products</a>
     <a href="#services">Services</a>
     <a href="#contact">Contact</a>
   </nav>
 
+  <section id="about">
+    <h2>About Us</h2>
+    <div class="about">
+      <div class="about-text">
+        <p>Founded in 1970, <strong>Sri Venkateshwara Auto Electrical and Battery</strong> has been a trusted name in Chitradurga for over five decades. We are proud to have served generations of customers with integrity, technical excellence, and personalized service.</p>
+        <p>Our business began as a modest auto electrical shop and has grown into a complete power solution provider. Today, we offer high-quality automotive batteries, UPS systems, inverter batteries, solar panel solutions, and auto electrical services. Our customer relationships are built on transparency, value, and trust.</p>
+        <p><strong>We are authorized distributors of Microtek and Powerzone</strong>, and we are also connected with all other major battery and solar brands to ensure every customer finds exactly what they need, all under one roof.</p>
+      </div>
+      <img src="https://lh3.googleusercontent.com/p/AF1QipPP6tVQZC31gzwSdXZGKJj1v1Cww4-u5ZaMjqi4=w325-h218-n-k-no" alt="Our Shop">
+    </div>
+  </section>
+
   <section id="products">
     <h2>Our Products</h2>
     <div class="products">
       <div class="card">
-        <img src="https://via.placeholder.com/300x160?text=UPS" alt="UPS">
+        <img src="https://github.com/SheshadhriSriRamLN/shop1/blob/main/inverter-service-in-coimbatore---1-AR0Jz5aEgBFBX73O.avif" alt="UPS">
         <h3>UPS</h3>
-        <p>Reliable power backup for home and office.</p>
+        <p>Top-quality UPS systems offering uninterrupted power backup for residential and commercial applications. Designed for high efficiency and long battery life, they are ideal for areas with frequent power outages.</p>
       </div>
       <div class="card">
-        <img src="https://via.placeholder.com/300x160?text=Vehicular+Battery" alt="Vehicular Battery">
-        <h3>Vehicular Battery</h3>
-        <p>Batteries for two-wheelers, cars, and trucks.</p>
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbatterygarage.in%2Fproduct%2Fpowerzone-pz95d26r-l-50-months-warranty%2F&psig=AOvVaw0BI_e6towYKGWxB4Nqupt2&ust=1752312856158000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjCgqHAtI4DFQAAAAAdAAAAABAE" alt="Automotive Battery">
+        <h3>Automotive Battery</h3>
+        <p>High-performance batteries for two-wheelers, cars, and heavy-duty vehicles. Our vehicle batteries deliver reliable starting power and longevity under diverse conditions.</p>
       </div>
       <div class="card">
-        <img src="https://via.placeholder.com/300x160?text=Solar+Panels" alt="Solar Panels">
-        <h3>Solar Panels</h3>
-        <p>Eco-friendly solar solutions for all needs.</p>
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fkenbrooksolar.com%2Fprice-list%2Fmicrotek-solar-panels-inverter-ups-system-price-in-india%3Fsrsltid%3DAfmBOoo4aCfggT7mCFn_Rsh5kl44aaBGVrGeUM5vaO37RlbKC_WeMj_D&psig=AOvVaw2mFLCCNeFcbXBPntJxqX1z&ust=1752312897816000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjW5rXAtI4DFQAAAAAdAAAAABAE" alt="Solar UPS and Panels">
+        <h3>Solar UPS and Panels</h3>
+        <p>Efficient and long-lasting solar panels for homes and businesses. We help reduce energy bills while promoting sustainable energy with expert consultation and setup.</p>
       </div>
       <div class="card">
-        <img src="https://via.placeholder.com/300x160?text=UPS+Battery" alt="UPS Battery">
+        <img src="https://www.olivepower.in/wp-content/uploads/2024/02/mtekcombo.webp" alt="UPS Battery">
         <h3>UPS Battery</h3>
-        <p>Long-lasting inverter/UPS batteries.</p>
+        <p>Inverter and UPS batteries that deliver stable and consistent performance. Suited for residential and commercial usage where constant backup power is essential.</p>
+      </div>
+      <div class="card">
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.olivepower.in%2Fmicrotek-ups-jm-sw-6500i-96v-inverter%2F%3Fsrsltid%3DAfmBOoozTvenQ11Qy35Apr7BFqICPGcQ-NhewRR-FDac36CH0nXHKe-C&psig=AOvVaw30ULtT95ZsQxGEwpb5yM-5&ust=1752313494831000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDy1NLCtI4DFQAAAAAdAAAAABAE" alt="Inverter Systems">
+        <h3>Inverter Systems</h3>
+        <p>Advanced inverter systems ideal for home and office use. These systems are compatible with multiple battery types and provide automatic switchover during power cuts, ensuring smooth and efficient power management.</p>
       </div>
     </div>
   </section>
@@ -107,14 +139,14 @@
     <h2>Our Services</h2>
     <div class="services">
       <div class="card">
-        <img src="https://via.placeholder.com/300x160?text=Self+Start+Repair" alt="Self Start Service">
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fbitn.com%2Fblog%2Fideas-worth-sharing%2Fhow-to-jump-car-battery&psig=AOvVaw3kUQRzND4s2yMA_2QOUX3a&ust=1752312989262000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNDa4d_AtI4DFQAAAAAdAAAAABAE" alt="Self Start Service">
         <h3>Self Start Service</h3>
-        <p>Repair and maintenance of self-start systems.</p>
+        <p>We repair and maintain self-start systems for all types of vehicles, ensuring smooth ignition and convenience for our customers. Our team diagnoses and solves issues with high accuracy and speed.</p>
       </div>
       <div class="card">
-        <img src="https://via.placeholder.com/300x160?text=Doorstep+Fitting" alt="Doorstep Fitting">
+        <img src="https://www.google.com/imgres?q=ups%20installtion&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D3614444595252595&imgrefurl=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D3614444595252595%26id%3D530102603686825%26set%3Da.827691857261230&docid=jm_FHoYAWAuUeM&tbnid=N4SDVVvenKxyoM&vet=12ahUKEwjnj5ftwLSOAxVMfGwGHRZXLJkQM3oECD0QAA..i&w=1040&h=780&hcb=2&ved=2ahUKEwjnj5ftwLSOAxVMfGwGHRZXLJkQM3oECD0QAA" alt="Doorstep Fitting">
         <h3>Doorstep Fitting</h3>
-        <p>We install batteries and panels at your location.</p>
+        <p>Enjoy the convenience of doorstep delivery and professional installation. We fit batteries, inverters, and solar systems at your home or office, ensuring optimal setup and guidance on usage.</p>
       </div>
     </div>
   </section>
@@ -126,7 +158,7 @@
     <p><strong>WhatsApp:</strong> <a href="https://wa.me/919110404493" target="_blank">Message on WhatsApp</a></p>
     <p><strong>Email:</strong> <a href="mailto:sln33516@gmail.com">sln33516@gmail.com</a></p>
     <div class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3867.4423723797586!2d76.39674097486522!3d14.227397286215908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bba7569f9aa749b%3A0x897c5e7e19df624c!2sSri%20Vankateshwara%20Auto%20electrical%20and%20battery!5e0!3m2!1sen!2sin!4v1752221846190!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3867.4423723797586!2d76.39674097486522!3d14.227397286215908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bba7569f9aa749b%3A0x897c5e7e19df624c!2sSri%20Venkateshwara%20Auto%20electrical%20and%20battery!5e0!3m2!1sen!2sin!4v1752221846190!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </section>
 
